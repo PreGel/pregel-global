@@ -1,0 +1,47 @@
+
+/*
+Theme Name: PreGel Global
+Description: Child theme for Global - Parent PreGel Master
+Author: PreGel America
+Template: pregel
+*/
+
+/* add your custom child css here */
+
+/*new map page*/
+#main .mapplic-tooltip {
+  min-width: 250px;
+  max-width: 330px;
+}
+#main .mapplic-tooltip-content {
+  max-height: none;
+}
+#main .mapplic-tooltip-description, #main .mapplic-tooltip p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+#main .mapplic-tooltip-description .button {
+  margin-top: 10px;
+}
+#main .mapplic-tooltip-title {
+  color: #444;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin-bottom: 10px;
+}
+#main .mapplic-clear-button {
+  top:0;
+}
+#main .mapplic-zoom-buttons {
+  top: 40px;
+}
+#main li.mapplic-list-category a {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#global-map {
+  margin: 20px 0 100px;
+  border: 10px solid #efefef;
+}
